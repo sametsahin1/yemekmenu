@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Web Site</title>
+    <style> @media (max-width: 768px) {
+        .categories {
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)) !important;
+            gap: 1.5rem !important;
+            align-items: center;
+        }
+        .categories > div {
+            margin-left: 10px;
+            text-align: center;
+        }
+        .eaths-bottom{
+            margin-left: 1em;
+        }
+
+    }</style>
+
+</head>
+
+<body>
+<!-- header section start -->
+<div style="text-align: center" class="logo"><img src="images/logo.png"></div>
+<h1 class="heading"><span>Firma Adı</span></h1>
+
+<h2 class="heading">Slogan</h2>
+<div class="categories">
+    <div class="box-bottom">
+        <a class="btn add-to-cart"  onclick="allproduct()">hepsi</a>
+    </div>
+    <div class="box-bottom">
+        <a class="btn add-to-cart"  onclick="products(1)">kate1</a>
+    </div>
+    <div class="box-bottom">
+        <a class="btn add-to-cart"  onclick="products(2)">kate2</a>
+    </div>
+    <div class="box-bottom">
+        <a class="btn add-to-cart" onclick="products(3)" >kate3</a>
+    </div>
+    <div class="box-bottom">
+        <a class="btn add-to-cart" onclick="products(4)">kate4</a>
+    </div>
+    <div class="box-bottom">
+        <a class="btn add-to-cart" onclick="products(5)">kate5</a>
+    </div>
+
+
+</div>
+
+<!-- header section end -->
+
+<!-- home section start -->
+
+
+
+<!-- home section end -->
+
+<!-- menu section start -->
+<section class="menu">
+
+    <div class="urunler">
+    </div>
+    <div class="eaths-container"style="margin: auto;height: 14em;
+    margin-top: 1em;
+    font-size: 1.5em;">
+
+        <div class="eaths-header" style="margin: auto;
+    margin-top: 1em;
+    font-size: 1.5em;">
+            <h3>Çalışma Saatlerimiz : 12.00 - 23.00</h3>
+            <h3>Çalışma Günlerimiz : Pazartesi - Perşembe </h3>
+
+
+        </div>
+
+    </div>
+</section>
+
+<!-- menu section end
+
+<-- products section start -->
+
+<!-- products section end -->
+
+<!-- about section start -->
+
+<!-- footer section end -->
+
+<script src="jquery-3.6.1.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
